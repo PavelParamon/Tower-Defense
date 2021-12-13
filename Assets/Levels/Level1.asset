@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 988cac33504c1994180e995774f74650, type: 3}
+  m_Name: Level1
+  m_EditorClassIdentifier: 
+  waves:
+  - enemyies:
+    - prefab: {fileID: 6860756994242604922, guid: 003b064097ba1bd4fa565d0210db6d9d, type: 3}
+      count: 3
+    - prefab: {fileID: 1258991314359982, guid: 3749b9edee740c44ea7455a4fa1b7382, type: 3}
+      count: 3
+    - prefab: {fileID: 1919012471076396, guid: 55776efecb0cd134ea5f418c2f97a705, type: 3}
+      count: 3
+    spawnPoints:
+    - {fileID: 1354419093465426, guid: fb6e45a6010fdae4b91b4ccbac21425e, type: 3}
+    timeSpawn: 2
+  - enemyies:
+    - prefab: {fileID: 6860756994242604922, guid: 003b064097ba1bd4fa565d0210db6d9d, type: 3}
+      count: 3
+    - prefab: {fileID: 1258991314359982, guid: 3749b9edee740c44ea7455a4fa1b7382, type: 3}
+      count: 3
+    - prefab: {fileID: 1919012471076396, guid: 55776efecb0cd134ea5f418c2f97a705, type: 3}
+      count: 3
+    spawnPoints:
+    - {fileID: 1354419093465426, guid: fb6e45a6010fdae4b91b4ccbac21425e, type: 3}
+    - {fileID: 1189959928608216086, guid: 0f030edf5eef2244bb785a62c250b6de, type: 3}
+    timeSpawn: 2
+  - enemyies:
+    - prefab: {fileID: 6860756994242604922, guid: 003b064097ba1bd4fa565d0210db6d9d, type: 3}
+      count: 3
+    - prefab: {fileID: 1258991314359982, guid: 3749b9edee740c44ea7455a4fa1b7382, type: 3}
+      count: 3
+    - prefab: {fileID: 1919012471076396, guid: 55776efecb0cd134ea5f418c2f97a705, type: 3}
+      count: 3
+    spawnPoints:
+    - {fileID: 1354419093465426, guid: fb6e45a6010fdae4b91b4ccbac21425e, type: 3}
+    - {fileID: 1189959928608216086, guid: 0f030edf5eef2244bb785a62c250b6de, type: 3}
+    timeSpawn: 2
+  - enemyies:
+    - prefab: {fileID: 6860756994242604922, guid: 003b064097ba1bd4fa565d0210db6d9d, type: 3}
+      count: 3
+    - prefab: {fileID: 1258991314359982, guid: 3749b9edee740c44ea7455a4fa1b7382, type: 3}
+      count: 3
+    - prefab: {fileID: 1919012471076396, guid: 55776efecb0cd134ea5f418c2f97a705, type: 3}
+      count: 3
+    spawnPoints:
+    - {fileID: 1354419093465426, guid: fb6e45a6010fdae4b91b4ccbac21425e, type: 3}
+    - {fileID: 1189959928608216086, guid: 0f030edf5eef2244bb785a62c250b6de, type: 3}
+    timeSpawn: 2
+  - enemyies:
+    - prefab: {fileID: 6860756994242604922, guid: 003b064097ba1bd4fa565d0210db6d9d, type: 3}
+      count: 3
+    - prefab: {fileID: 1258991314359982, guid: 3749b9edee740c44ea7455a4fa1b7382, type: 3}
+      count: 3
+    - prefab: {fileID: 1919012471076396, guid: 55776efecb0cd134ea5f418c2f97a705, type: 3}
+      count: 3
+    spawnPoints:
+    - {fileID: 1354419093465426, guid: fb6e45a6010fdae4b91b4ccbac21425e, type: 3}
+    - {fileID: 1189959928608216086, guid: 0f030edf5eef2244bb785a62c250b6de, type: 3}
+    timeSpawn: 2
+  preparationTime: 1
+  reward: 100
